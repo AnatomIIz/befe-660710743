@@ -4,6 +4,7 @@ import SearchBar from '../components/SearchBar';
 import LoadingSpinner from '../components/LoadingSpinner';
 import { ChevronDownIcon } from '@heroicons/react/outline';
 import { getAllBooks } from '../data/booksData';
+import { NavLink } from 'react-router-dom';
 
 const BookListPage = () => {
   const [books, setBooks] = useState([]);

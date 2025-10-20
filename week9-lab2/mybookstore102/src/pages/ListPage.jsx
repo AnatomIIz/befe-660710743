@@ -71,6 +71,7 @@ const ListPage = () => {
   return (
     <div>
       <div className="bg-white text-black rounded-xl shadow-2xl overflow-hidden">
+        <td><button><NavLink to = "/store-manager/add-book"> เพิ่มหนังสือ </NavLink></button></td>
         <table className="w-full border-collapse mb-4">
           <thead className="bg-green-300 text-gray-900">
             <tr>
